@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/canva_orange_yellow_watercolor"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/tWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Welcome" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="These are your details from our Database" />
+
+    <TextView
+        android:id="@+id/btnName"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/btnMail"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="E-Mail" />
+
+    <TextView
+        android:id="@+id/btnPass"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Pass" />
+
+</LinearLayout>
